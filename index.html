@@ -219,12 +219,19 @@
           mapTypeId: google.maps.MapTypeId.ROADMAP
         }
         var map = new google.maps.Map(mapCanvas, mapOptions);
+        var iconURL = 'img/star-pin.png';
+        var markerImage = new google.maps.MarkerImage(
+          iconURL,
+          new google.maps.Size(140, 158), // size
+          new google.maps.Point(0,0), // origin
+          new google.maps.Point(35,79), // anchor
+          new google.maps.Size(70,79) // scaled size
+        );
 
-        var iconBase = 'img/';
         var marker = new google.maps.Marker({
           position: myLatLng,
           map: map,
-          icon: iconBase + 'star-pin.png'
+          icon: markerImage
         });
 
         google.maps.event.addListener(marker, 'click', function() {
