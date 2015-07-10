@@ -1,0 +1,609 @@
+body {
+  padding-top: 105px;
+}
+
+p {
+  font-family: 'mission_gothiclight';
+  font-size: 16px;
+}
+
+h2 {
+  font-family: 'mission_gothicregular';
+  font-size: 1.875rem;
+  margin-bottom: 20px;
+}
+
+h3 {
+  font-family: 'mission_gothiclight';
+  font-size: 2.5rem;
+}
+
+h4 {
+  font-family: 'mission_gothiclight';
+  font-size: 1.3125rem;
+}
+
+.text-bold {
+  font-weight: 800;
+}
+
+.section-pad {
+  padding-top: 70px;
+  padding-bottom: 70px;
+}
+
+.main-button {
+  display: inline-block;
+  background-color: #2c3688;
+  color: #ffffff;
+  font-family: 'mission_gothicbold';
+  font-size: 1.3125rem;
+  padding: 18px 25px;
+  text-decoration: none;
+  box-shadow: 5px 5px 0 #6cb4da;
+  -webkit-transition: background-color .3s, box-shadow .3s; /* Safari */
+  transition: background-color .3s, box-shadow .3s;
+}
+
+.main-button:hover {
+  background-color: #6cb4da;
+  color: #fff;
+  box-shadow: 5px 5px 0 #2c3688;
+}
+
+.box {
+  width: 100px;
+  height: 100px;
+  background-color: #fff;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  z-index: 999;
+}
+
+.secondary {
+  background-color: #fff;
+  border: solid 4px #2c3688;
+  color: #2c3688;
+}
+
+.text-cta {
+  font-family: 'mission_gothicbold';
+  text-transform: uppercase;
+  font-size: 1.125rem;
+  text-decoration: underline;
+}
+
+.text-right {
+  text-align: right;
+}
+
+a {
+  text-decoration: underline;
+  color: inherit;
+}
+
+a:hover {
+  color: #71c0e8;
+}
+
+.center-horizontal-vertical {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
+
+.clear {
+  clear: both;
+}
+
+
+/* Navigation */
+
+header {
+  background-color: #fff;
+  width: 100%;
+  margin: 0;
+  top: 0;
+  border-bottom: solid 2px #be2428;
+  position: fixed;
+  z-index: 99999;
+}
+
+header ul {
+  margin: 0;
+}
+
+header li {
+  display: inline-block;
+  text-decoration: none;
+  padding-top: 18px;
+  padding-bottom: 18px;
+}
+
+header li a {
+  font-family: 'mission_gothicregular';
+  font-size: 1rem;
+  margin-right: 30px;
+  color: #000;
+  text-decoration: none;
+}
+
+.rubyconf-logo {
+  width: 150px;
+  margin-right: 10px;
+}
+
+.twitter-logo {
+  width: 30px;
+  margin-right: 10px;
+}
+
+.nav-links li {
+  padding-top: 40px;
+}
+
+header .main-button {
+  margin-right: 0;
+}
+
+
+/* Main Marquee */
+
+.main-marquee {
+  background-color: #be2428;
+  color: #fff;
+  background-image: url('../img/rubyconf-pattern.png');
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+}
+
+.ruby-boot {
+  width: 480px;
+  text-align: center;
+}
+
+.main-marquee h2 {
+  font-family: 'Haymaker';
+  font-size: 1.5rem;
+  color: #fff;
+  letter-spacing: 4px;
+}
+
+.main-marquee h1 {
+  font-family: 'MenschRegular';
+  font-size: 7.25rem;
+  line-height: 7.25rem;
+  color: #fff;
+  margin-bottom: 20px;
+}
+
+.texas-icon {
+  display: inline-block;
+  vertical-align: top;
+  width: 86px;
+  margin-right: 20px;
+}
+
+.address-text {
+  display: inline-block;
+  margin-bottom: 40px;
+}
+
+.main-marquee h5 {
+  font-family: 'mission_gothicbold';
+  font-size: 1.325rem;
+  color: #fff;
+  margin-bottom: 0;
+}
+
+.main-marquee h6 {
+  font-family: 'mission_gothicregular';
+  font-size: 1.125rem;
+  color: #fff;
+}
+
+.main-marquee p {
+  font-size: 1.5rem;
+  line-height: 2rem;
+  padding-right: 85px;
+}
+
+
+/* Participate Section */
+
+.participate-section {
+  background-color: #cccccc;
+}
+
+.participate-section .main-button {
+  margin-right: 20px;
+}
+
+.participate-section .main-button:last-child {
+  margin-right: 0;
+}
+
+
+/* News Section */
+
+.news-section {
+  background-color: #d1e6f0;
+}
+
+.news-section .text-cta {
+  text-align: right;
+}
+
+.news-card {
+  background-color: #fff;
+  width: 49%;
+  padding: 50px;
+  text-align: center;
+}
+
+.news-card h3 {
+  margin-bottom: 20px;
+}
+
+.news-card h4 {
+  color: #be2428;
+}
+
+.news-card h4::after {
+  content: "";
+  height: 2px;
+  width: 35px;
+  background-color: #be2428;
+  display: block;
+  margin: 10px auto 20px auto;
+}
+
+/* Speaker Section */
+
+.speaker-section .text-cta {
+  text-align: right;
+}
+
+.speaker-block {
+  position: relative;
+  display: block;
+}
+
+.overlay-text {
+  position: absolute;
+  z-index: 9999;
+  display: block;
+  width: 100%;
+  height: 351px;
+  text-align: center;
+  padding-top: 110px;
+  padding-bottom: 110px;
+  opacity: 0;
+  -webkit-transition: opacity .3s; /* Safari */
+  transition: opacity .3s;
+}
+
+.overlay-text h3 {
+  color: #fff;
+}
+
+.overlay-text h4 {
+  color: #fff;
+}
+
+.overlay-text h4 {
+  margin-bottom: 20px;
+}
+
+.overlay {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background-color: #2c3688;
+  z-index: 999;
+  opacity: 0;
+  -webkit-transition: opacity .3s; /* Safari */
+  transition: opacity .3s;
+}
+
+.speaker-block:hover .overlay {
+  opacity: .85;
+}
+
+.speaker-block:hover .overlay-text {
+  opacity: 1;
+}
+
+/* San Antonio Section */
+
+.sanantonio-section {
+  background-image: url('../img/sa-getty.jpg');
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+}
+
+.info-box {
+  background-color: #fff;
+  padding: 40px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.info-box h2 {
+  margin-bottom: 0;
+}
+
+.info-box h4 {
+  margin-bottom: 20px;
+}
+
+.info-box p {
+  margin-bottom: 0;
+}
+
+
+/* Map Section */
+
+.map-section {
+  background-color: #2c3688;
+}
+
+#map-canvas {
+  width: 100%;
+  height: 520px;
+}
+
+
+/* Facts Section */
+
+.facts-section {
+  background-color: #2c3688;
+}
+
+.facts-section article {
+  text-align: center;
+}
+
+.fact-illustration {
+  width: 320px;
+  margin-bottom: 30px;
+}
+
+.facts-section h2 {
+  color: #fff;
+  margin-bottom: 0;
+}
+
+.facts-section p {
+  color: #71c0e8;
+  font-size: 1.3125rem;
+}
+
+
+/* Sponsor Section */
+
+.sponsor-section h2 {
+  margin-bottom: 50px;
+}
+
+.sponsor-logo {
+  padding: 60px;
+}
+
+.sponsor-logo-small {
+  padding: 60px 40px;
+}
+
+.banner-ad {
+  width: 728px;
+  border: solid 2px #cccccc;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 30px;
+  display: block;
+}
+
+
+/* Policy Section */
+
+.policy-section {
+  background-color: #cccccc;
+}
+.policy-section p {
+  margin-bottom: 0;
+}
+
+
+/* Footer */
+
+footer {
+  background-color: #be2428;
+  color: #fff;
+}
+
+footer p {
+  padding: 20px 0;
+  margin: 0;
+}
+
+
+/* ========== Media Queries ========== */
+
+@media only screen and (max-width: 1024px) {
+
+  body {
+    padding-top: 88px;
+  }
+
+  .row {
+    max-width: 90%;
+  }
+
+  .section-pad {
+    padding-top: 50px;
+    padding-bottom: 50px;
+  }
+
+  /* Navigation (1024px) */
+
+  .main-navigation .large-3 {
+    display: none;
+  }
+
+  .nav-links li {
+    padding-top: 30px;
+    padding-bottom: 30px;
+  }
+
+  /* Main Marquee (1024px) */
+
+  .main-marquee .ruby-boot {
+    display: none;
+  }
+
+  /* News Section (1024px) */
+
+  .news-card {
+    width: 100%;
+    margin-bottom: 10px;
+  }
+}
+
+@media only screen and (max-width: 640px) {
+
+  .nav-links {
+    display: none;
+  }
+
+  /* Main Marquee (640px) */
+
+  .main-marquee h2 {
+    font-size: 1rem;
+    margin-bottom: 0;
+  }
+
+  .main-marquee h1 {
+    font-size: 5rem;
+    margin-bottom: 0;
+  }
+
+  .main-marquee p {
+    font-size: 1.3125rem;
+  }
+
+  .texas-icon {
+    padding-bottom: 20px;
+  }
+
+  .main-marquee .address-text {
+    margin-bottom: 20px;
+  }
+
+  .main-marquee p {
+    padding-right: 0;
+  }
+
+  /* Participate Section (640px) */
+
+  .participate-section h4 {
+    margin-bottom: 30px;
+  }
+
+  .participate-section .main-button {
+    margin-bottom: 20px;
+  }
+
+  /* News Section (640px) */
+
+  .news-section h2 {
+    margin-bottom: 0;
+  }
+
+  .news-section .text-cta {
+    text-align: left;
+    margin-bottom: 20px;
+  }
+
+  /* Speaker Section (640px) */
+
+  .speaker-section h2 {
+    margin-bottom: 0;
+  }
+
+  .speaker-section .text-cta {
+    text-align: left;
+    margin-bottom: 20px;
+  }
+
+  .speaker-image {
+    width: 100%;
+  }
+
+  /* Facts Section (640px) */
+
+  .facts-section article {
+    margin-bottom: 30px;
+  }
+
+  .facts-section article:last-child {
+    margin-bottom: 0;
+  }
+
+  .fact-illustration {
+    width: 240px;
+  }
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
