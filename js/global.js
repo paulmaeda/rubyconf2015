@@ -1,3 +1,31 @@
+//
+// Menu
+//
+
+function menuToggle(){
+  var openButton = $('.navigation-toggle');
+  var closeButton = $('.navigation-close');
+  var menu = $('.main-navigation');
+  var openClass = 'open';
+
+  openButton.on('click', function(){
+    menu.addClass(openClass);
+  });
+
+  closeButton.on('click', function(){
+    menu.removeClass(openClass);
+  });
+}
+
+$(function(){
+  menuToggle();
+});
+
+
+//
+// Google Maps
+//
+
 function initializeMap() {
   var mapCanvas = document.getElementById('map-canvas');
   var myLatLng = new google.maps.LatLng(29.423478, -98.483723);

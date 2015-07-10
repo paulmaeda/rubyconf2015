@@ -103,7 +103,15 @@ a:hover {
 
 /* Navigation */
 
-header {
+.small-navigation {
+  display: none;
+}
+
+.navigation-close {
+  display: none;
+}
+
+.main-navigation {
   background-color: #fff;
   width: 100%;
   margin: 0;
@@ -113,18 +121,18 @@ header {
   z-index: 99999;
 }
 
-header ul {
+.main-navigation ul {
   margin: 0;
 }
 
-header li {
+.main-navigation li {
   display: inline-block;
   text-decoration: none;
   padding-top: 18px;
   padding-bottom: 18px;
 }
 
-header li a {
+.main-navigation li a {
   font-family: 'mission_gothicregular';
   font-size: 1rem;
   margin-right: 30px;
@@ -146,8 +154,58 @@ header li a {
   padding-top: 40px;
 }
 
-header .main-button {
+.main-navigation .main-button {
   margin-right: 0;
+}
+
+@media (max-width: 1200px) {
+  .small-navigation {
+    display: block;
+    background-color: #fff;
+    width: 100%;
+    margin: 0;
+    top: 0;
+    left: 0px;
+    border-bottom: solid 2px #be2428;
+    padding: 25px;
+    position: fixed;
+    z-index: 99999;
+  }
+  .navigation-close {
+    display: block;
+    float: right;
+  }
+  .small-navigation .navigation-toggle {
+    float: right;
+  }
+  .main-navigation {
+    -webkit-transition: transform .3s cubic-bezier(0.77, 0, 0.175, 1);
+    -moz-transition: transform .3s cubic-bezier(0.77, 0, 0.175, 1);
+    transition: transform .3s cubic-bezier(0.77, 0, 0.175, 1);
+    -webkit-transform: translateX(100%);
+    -moz-transform: translateX(100%);
+    transform: translateX(100%);
+    color: tomato !important;
+    right: 0px;
+    top: 0px;
+    height: 100%;
+  }
+
+  .main-navigation.open {
+    -webkit-transform: translateX(0%);
+    -moz-transform: translateX(0%);
+    transform: translateX(0%);
+  }
+
+  .main-navigation li {
+    display: block;
+    clear: both;
+    width: 100%;
+  }
+
+  .main-navigation img {
+    display: none;
+  }
 }
 
 
@@ -452,9 +510,9 @@ footer p {
 
   /* Navigation (1024px) */
 
-  .main-navigation .large-3 {
+  /*.main-navigation .large-3 {
     display: none;
-  }
+  }*/
 
   .nav-links li {
     padding-top: 30px;
@@ -477,9 +535,9 @@ footer p {
 
 @media only screen and (max-width: 640px) {
 
-  .nav-links {
+  /*.nav-links {
     display: none;
-  }
+  }*/
 
   /* Main Marquee (640px) */
 
@@ -563,47 +621,3 @@ footer p {
 
 
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
