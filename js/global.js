@@ -65,3 +65,30 @@ function initializeMap() {
 }
 
 google.maps.event.addDomListener(window, 'load', initializeMap);
+
+//
+// Countdown Timer
+//
+
+var time = document.getElementsByTagName('time')[0],
+    days = document.getElementById('days'),
+    hours = document.getElementById('hours'),
+    minutes = document.getElementById('minutes'),
+    seconds = document.getElementById('seconds');
+
+function getTimeToConference() {
+  var currentTime = new Date(),
+      confTime = new Date('November 16, 2015 18:00:00'),
+      timeToConf = confTime - currentTime,
+      daysToConf = Math.floor(timeToConf / 86400000), //86400000 ms in a day
+      hoursToConf = Math.floor( (timeToConf % 86400000) / 3600000), //3600000ms in an hour
+      minutesToConf = Math.floor( ((timeToConf % 86400000) % 3600000) / 60000 ), //60000 ms in a minute
+      secondsToConf = Math.floor( ( ((timeToConf % 86400000) % 3600000) % 60000) / 1000);
+  /*time.innerHTML = daysToConf + ' days ' + hoursToConf + ' hours ' + minutesToConf + ' minutes <div>' + secondsToConf + '</div> seconds.';*/
+  days.innerHTML = daysToConf;
+  hours.innerHTML = hoursToConf;
+  minutes.innerHTML = minutesToConf;
+  seconds.innerHTML = secondsToConf;
+
+}
+window.setInterval(getTimeToConference,1000);

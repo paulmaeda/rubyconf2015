@@ -1,5 +1,5 @@
 body {
-  padding-top: 105px;
+  padding-top: 98px;
 }
 
 p {
@@ -375,6 +375,34 @@ a:hover {
 
 .speaker-block:hover .overlay-text {
   opacity: 1;
+}
+
+/* Countdown Section */
+
+.countdown-section {
+  background-color: #be2428;
+  color: #fff;
+  text-align: center;
+  background-image: url('../img/abstract-pattern.png');
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+}
+
+time div{
+  font-family: 'mission_gothiclight';
+  font-size: 60px;
+  display: inline-block;
+  margin-right: 8px;
+  text-align: center;
+  width: 96px;
+}
+
+.time-box {
+  background-color: #fff;
+  color: #2c3688;
+  border-radius: 6px;
+  margin-bottom: 20px;
 }
 
 /* San Antonio Section */
