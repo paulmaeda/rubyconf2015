@@ -1,0 +1,66 @@
+/* Secondary Pages */
+
+.secondary-marquee {
+  background-color: #be2428;
+  color: #fff;
+  background-image: url('../img/illustration-pattern.png');
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+}
+
+.secondary-marquee h1 {
+  color: #fff;
+}
+
+.info-section span {
+  font-family: 'Haymaker';
+  color: #be2428;
+  font-size: 2rem;
+}
+
+.double-border {
+  margin-top: 30px;
+  margin-bottom: 40px;
+  border-top: dotted 2px #be2428;
+  border-bottom: dotted 2px #be2428;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  width: 80%;
+}
+
+.info-section h3 {
+  font-family: 'mission_gothicregular';
+  font-size: 1.5rem;
+}
+
+
+/* Registration */
+
+.rc-shirts {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 75%;
+}
+
+
+/* About */
+
+.ruby-icon {
+  width: 200px;
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+
+.conf-video {
+  margin-bottom: 20px;
+}
+
+.rc-logo-large {
+  width: 140px;
+}
+
+
+
+
