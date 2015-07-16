@@ -1,5 +1,17 @@
 /* Secondary Pages */
 
+p {
+  margin-bottom: 10px;
+}
+
+h3 {
+  margin-bottom: 10px;
+}
+
+.paragraph-block {
+  margin-bottom: 30px;
+}
+
 .secondary-marquee {
   background-color: #be2428;
   color: #fff;
@@ -19,6 +31,9 @@
   font-size: 2rem;
 }
 
+
+/* Registration */
+
 .double-border {
   margin-top: 30px;
   margin-bottom: 40px;
@@ -28,14 +43,6 @@
   padding-bottom: 20px;
   width: 80%;
 }
-
-.info-section h3 {
-  font-family: 'mission_gothicregular';
-  font-size: 1.5rem;
-}
-
-
-/* Registration */
 
 .rc-shirts {
   display: block;

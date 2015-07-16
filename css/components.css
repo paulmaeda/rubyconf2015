@@ -184,18 +184,6 @@ time div:last-child {
   margin-bottom: 20px;
 }
 
-.info-box h2 {
-  margin-bottom: 0;
-}
-
-.info-box h4 {
-  margin-bottom: 20px;
-}
-
-.info-box p {
-  margin-bottom: 0;
-}
-
 
 /* Map Section */
 
@@ -211,10 +199,6 @@ time div:last-child {
 
 /* Sponsor Section */
 
-.sponsor-section h2 {
-  margin-bottom: 30px;
-}
-
 .sponsor-logo {
   padding: 60px;
 }
@@ -226,6 +210,7 @@ time div:last-child {
 .banner-ad {
   width: 728px;
   border: solid 2px #cccccc;
+  margin: 70px auto;
   margin-left: auto;
   margin-right: auto;
   margin-bottom: 30px;

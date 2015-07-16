@@ -12,7 +12,6 @@ p, h1, h2, h3, h4, h5, h6 {
 p {
   font-family: 'mission_gothiclight';
   font-size: 18px;
-  margin-bottom: 30px;
 }
 
 h1 {
@@ -23,11 +22,12 @@ h1 {
 h2 {
   font-family: 'mission_gothicregular';
   font-size: 1.875rem;
+  line-height: 2.875rem;
 }
 
 h3 {
-  font-family: 'mission_gothiclight';
-  font-size: 2.5rem;
+  font-family: 'Haymaker';
+  font-size: 1.5rem;
 }
 
 h4 {
@@ -36,12 +36,21 @@ h4 {
 }
 
 h5 {
-  font-family: 'mission_gothicregular';
-  font-size: 1.5rem;
+  font-family: 'MenschRegular';
+  font-size: 3rem;
+}
+
+h6 {
+  font-family: 'mission_gothiclight';
+  font-size: 2.5rem;
 }
 
 .text-bold {
   font-weight: 800;
+}
+
+.mini-header {
+  font-family: 'mission_gothicregular';
 }
 
 .callout-style {
@@ -108,11 +117,23 @@ a:hover {
   border-bottom: dotted 2px #be2428;
 }
 
+.spacer-small {
+  margin-bottom: 15px;
+}
+
+.spacer-medium {
+  margin-bottom: 30px;
+}
+
 
 /* Color */
 
 .rc-light-blue {
   color: #71c0e8;
+}
+
+.rc-red {
+  color: #be2428;
 }
 
 .gold {
