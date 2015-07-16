@@ -11,7 +11,7 @@ p, h1, h2, h3, h4, h5, h6 {
 
 p {
   font-family: 'mission_gothiclight';
-  font-size: 16px;
+  font-size: 18px;
   margin-bottom: 30px;
 }
 
@@ -44,7 +44,7 @@ h5 {
   font-weight: 800;
 }
 
-.date-style {
+.callout-style {
   font-family: 'Haymaker';
   font-size: 1.5rem;
   letter-spacing: 4px;
@@ -113,6 +113,18 @@ a:hover {
 
 .rc-light-blue {
   color: #71c0e8;
+}
+
+.gold {
+  color: #e5c100;
+}
+
+.silver {
+  color: #c0c0c0;
+}
+
+.bronze {
+  color: #cd7f32;
 }
 
 

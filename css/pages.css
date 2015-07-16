@@ -61,6 +61,14 @@
   width: 140px;
 }
 
+/* Sponsors */
+
+.supporter-links li {
+  list-style: none;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
 
 
 
