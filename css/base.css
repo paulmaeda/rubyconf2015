@@ -172,6 +172,19 @@ a:hover {
   color: #cd7f32;
 }
 
+/* Animation */
+
+.fade-in {
+  animation-name: fade-in;
+  animation-duration: .5s;
+  animation-timing-function: ease;
+}
+
+@keyframes fade-in {
+  from {opacity: 0;}
+  to {opacity: 1;}
+}
+
 
 /* ========== Media Queries ========== */
 

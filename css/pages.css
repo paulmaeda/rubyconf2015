@@ -31,6 +31,26 @@ h3 {
   font-size: 2rem;
 }
 
+/* Sponsors */
+
+.supporter-links li {
+  list-style: none;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+/* Scholarships */
+
+.signup-block h6 {
+  font-size: 1.85rem;
+}
+
+.info-section li {
+  font-family: 'mission_gothiclight';
+  font-size: 18px;
+  line-height: 2rem;
+  margin-bottom: 10px;
+}
 
 /* Registration */
 
@@ -66,13 +86,7 @@ h3 {
   width: 140px;
 }
 
-/* Sponsors */
 
-.supporter-links li {
-  list-style: none;
-  margin-top: 20px;
-  margin-bottom: 20px;
-}
 
 
 
