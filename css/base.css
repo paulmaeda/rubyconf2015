@@ -12,6 +12,7 @@ p, h1, h2, h3, h4, h5, h6 {
 p {
   font-family: 'mission_gothiclight';
   font-size: 18px;
+  line-height: 2rem;
 }
 
 h1 {
@@ -81,6 +82,25 @@ h6 {
   box-shadow: 5px 5px 0 #2c3688;
 }
 
+.secondary-button {
+  display: inline-block;
+  background-color: #be2428;
+  color: #ffffff;
+  font-family: 'mission_gothicbold';
+  font-size: 1.3125rem;
+  padding: 18px 25px;
+  text-decoration: none;
+  box-shadow: 5px 5px 0 #6cb4da;
+  -webkit-transition: background-color .3s, box-shadow .3s; /* Safari */
+  transition: background-color .3s, box-shadow .3s;
+}
+
+.secondary-button:hover {
+  background-color: #6cb4da;
+  color: #fff;
+  box-shadow: 5px 5px 0 #be2428;
+}
+
 .text-cta {
   font-family: 'mission_gothicbold';
   text-transform: uppercase;
@@ -134,6 +154,10 @@ a:hover {
 
 .rc-red {
   color: #be2428;
+}
+
+.rc-red-bg {
+  background-color: #be2428;
 }
 
 .gold {

@@ -35,8 +35,6 @@ h3 {
 /* Registration */
 
 .double-border {
-  margin-top: 30px;
-  margin-bottom: 40px;
   border-top: dotted 2px #be2428;
   border-bottom: dotted 2px #be2428;
   padding-top: 20px;
