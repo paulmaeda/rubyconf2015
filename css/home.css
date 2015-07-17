@@ -10,15 +10,12 @@
 }
 
 .ruby-boot {
-  width: 480px;
-  text-align: center;
+  width: 392px;
 }
 
 .main-marquee h1 {
   color: #fff;
   line-height: 7.25rem;
-  margin-top: 20px;
-  margin-bottom: 20px;
 }
 
 .texas-icon {
@@ -30,21 +27,18 @@
 
 .address-text {
   display: inline-block;
-  margin-bottom: 40px;
 }
 
 .main-marquee h5 {
   font-family: 'mission_gothicbold';
   font-size: 1.325rem;
   color: #fff;
-  margin-bottom: 0;
 }
 
 .main-marquee h6 {
   font-family: 'mission_gothicregular';
   font-size: 1.125rem;
   color: #fff;
-  margin-bottom: 10px;
 }
 
 .main-marquee h2 {
@@ -159,44 +153,14 @@
 }
 
 
-/* Facts Section */
-
-.facts-section {
-  background-color: #2c3688;
-  color: #fff;
-}
-
-.fact-illustration {
-  width: 320px;
-  margin-bottom: 30px;
-  transform: rotateY(0deg);
-  transition: all .3s ease-in-out;
-}
-
-.fact-illustration:hover {
-  transform: rotateY(-180deg);
-}
-
-.facts-section span {
-  font-family: 'mission_gothiclight';
-  margin-left: -10px;
-  margin-right: -10px;
-}
-
-.facts-section h5 {
-  font-size: 2.5rem;
-  margin-bottom: 10px;
-}
-
-
 /* Policy Section */
 
-.policy-section {
+.policy-block {
   background-color: #cccccc;
+  padding: 40px 340px 40px 40px;
+  width: 100%;
 }
-.policy-section p {
-  margin-bottom: 0;
-}
+
 
 
 /* ========== Media Queries ========== */

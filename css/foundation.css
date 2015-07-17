@@ -3704,9 +3704,11 @@ td {
 a {
   color: #008CBA;
   line-height: inherit;
-  text-decoration: none; }
+  text-decoration: none;
+  -webkit-transition: color .2s; /* Safari */
+  transition: color .2s; }
   a:hover, a:focus {
-    color: #0078a0; }
+    color: #6cb4da; }
   a img {
     border: none; }
 

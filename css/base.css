@@ -18,6 +18,7 @@ p {
 h1 {
   font-family: 'MenschRegular';
   font-size: 7.25rem;
+  line-height: 7.5rem;
 }
 
 h2 {
@@ -44,6 +45,7 @@ h5 {
 h6 {
   font-family: 'mission_gothiclight';
   font-size: 2.5rem;
+  line-height: 3rem;
 }
 
 .text-bold {
@@ -58,6 +60,13 @@ h6 {
   font-family: 'Haymaker';
   font-size: 1.5rem;
   letter-spacing: 4px;
+}
+
+.header-double-line {
+  display: inline-block;
+  border-top: solid 4px #be2428;
+  border-bottom: solid 4px #be2428;
+  padding: 8px
 }
 
 
@@ -104,17 +113,26 @@ h6 {
 .text-cta {
   font-family: 'mission_gothicbold';
   text-transform: uppercase;
+  color: #71c0e8;
   font-size: 1.125rem;
   text-decoration: none;
+  -webkit-transition: color .2s; /* Safari */
+  transition: color .2s;
 }
 
-a {
+.text-cta:hover, .text-cta:focus {
+  color: #2c3688;
+}
+
+.inline-link {
   text-decoration: none;
   color: inherit;
+  -webkit-transition: color .2s; /* Safari */
+  transition: color .2s;
 }
 
-a:hover {
-  color: #71c0e8;
+.inline-link:hover, .inline-link:focus {
+  color: #2c3688;
 }
 
 
@@ -143,6 +161,10 @@ a:hover {
 
 .spacer-medium {
   margin-bottom: 30px;
+}
+
+.spacer-big {
+  margin-bottom: 50px;
 }
 
 

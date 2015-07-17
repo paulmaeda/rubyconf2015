@@ -240,6 +240,17 @@ footer:before {
   transform: rotateX(-180deg);
 }
 
+.footer-link {
+  text-decoration: none;
+  color: inherit;
+  -webkit-transition: color .2s; /* Safari */
+  transition: color .2s;
+}
+
+.footer-link:hover, .footer-link:focus {
+  color: #71c0e8;
+}
+
 .rc-logo {
   width: 100px;
   margin-bottom: 20px;
