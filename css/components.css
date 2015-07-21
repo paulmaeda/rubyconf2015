@@ -112,11 +112,33 @@
   .main-navigation li {
     display: block;
     clear: both;
+    padding: 10px 0;
     width: 100%;
+  }
+
+  .main-navigation li:hover {
+    background-color: gray;
+  }
+
+  .main-navigation li:first-child {
+    display: none;
+  }
+
+  .nav-link {
+    font-size: 1.5em;
+  }
+
+  .nav-links-right {
+    text-align: left;
+    padding: 0;
   }
 
   .main-navigation img {
     display: none;
+  }
+
+  .nav-link-set {
+    padding: 0;
   }
 }
 

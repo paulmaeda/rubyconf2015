@@ -212,10 +212,6 @@ h6 {
 
 @media only screen and (max-width: 1150px) {
 
-  .row {
-    max-width: 90%;
-  }
-
   .section-pad {
     padding-top: 50px;
     padding-bottom: 50px;
