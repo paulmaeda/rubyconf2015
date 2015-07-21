@@ -11,6 +11,8 @@
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
+  padding-left: 1.5rem;
+  padding-right: 1.5rem;
 }
 
 .secondary-marquee h1 {
@@ -42,6 +44,10 @@
 
 /* Scholarships */
 
+.long-heading-small {
+  display: none;
+}
+
 .signup-block h6 {
   font-size: 1.85rem;
   line-height: 2.5rem;
@@ -52,6 +58,17 @@
   font-size: 18px;
   line-height: 2rem;
   margin-bottom: 10px;
+}
+
+@media (max-width: 400px) {
+
+  .long-heading-small {
+    display: block;
+  }
+
+  .long-heading-large {
+    display: none;
+  }
 }
 
 /* Registration */
@@ -71,13 +88,11 @@
   width: 75%;
 }
 
-
 /* Location */
 
 .location-image {
   width: 100%;
 }
-
 
 /* Facts */
 
@@ -107,7 +122,6 @@
   font-size: 2.5rem;
   margin-bottom: 10px;
 }
-
 
 /* About */
 
@@ -145,9 +159,3 @@
 .rc-logo-large {
   width: 140px;
 }
-
-
-
-
-
-

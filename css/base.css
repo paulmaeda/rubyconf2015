@@ -2,6 +2,13 @@ body {
   padding-top: 117px;
 }
 
+@media (max-width: 400px) {
+
+  body {
+    padding-top: 89px;
+  }
+}
+
 /* Typography */
 
 p, h1, h2, h3, h4, h5, h6 {
@@ -70,6 +77,26 @@ h6 {
   padding: 8px
 }
 
+@media (max-width: 400px) {
+
+  p {
+    font-size: 16px;
+  }
+
+  .callout-style {
+    font-size: 1rem;
+  }
+
+  h1 {
+    font-size: 3.25rem;
+    line-height: 3.25rem;
+  }
+
+  h2 {
+    font-size: 1.5rem;
+    line-height: 2.5rem;
+  }
+}
 
 /* CTAs */
 
@@ -168,6 +195,25 @@ h6 {
   margin-bottom: 50px;
 }
 
+@media (max-width: 400px) {
+
+  .section-pad {
+    padding-top: 40px;
+    padding-bottom: 40px;
+  }
+
+  .spacer-small {
+    margin-bottom: 8px;
+  }
+
+  .spacer-medium {
+    margin-bottom: 15px;
+  }
+
+  .spacer-big {
+    margin-bottom: 25px;
+  }
+}
 
 /* Color */
 
@@ -206,15 +252,4 @@ h6 {
 @keyframes fade-in {
   from {opacity: 0;}
   to {opacity: 1;}
-}
-
-
-/* ========== Media Queries ========== */
-
-@media only screen and (max-width: 1150px) {
-
-  .section-pad {
-    padding-top: 50px;
-    padding-bottom: 50px;
-  }
 }

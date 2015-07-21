@@ -49,21 +49,29 @@
   padding-right: 85px;
 }
 
+@media (max-width: 400px) {
 
-/* Participate Section */
+  .ruby-boot {
+    display: none;
+  }
 
-.participate-section {
-  background-color: #cccccc;
+  .main-marquee h1 {
+    font-size: 5rem;
+    line-height: 5.5rem;
+  }
+
+  .texas-icon {
+    display: none;
+  }
+
+  .main-marquee h5 {
+    font-size: 1rem;
+  }
+
+  .main-marquee h2 {
+    padding-right: 0;
+  }
 }
-
-.participate-section .main-button {
-  margin-right: 20px;
-}
-
-.participate-section .main-button:last-child {
-  margin-right: 0;
-}
-
 
 /* News Section */
 
@@ -104,6 +112,15 @@
   margin: 10px auto 20px auto;
 }
 
+@media (max-width: 400px) {
+
+  .news-card {
+    width: 100%;
+    display: block;
+    padding: 24px;
+    margin-bottom: 20px;
+  }
+}
 
 /* Speaker Section */
 
@@ -152,6 +169,12 @@
   opacity: 1;
 }
 
+@media (max-width: 400px) {
+
+  .speaker-block {
+    margin-bottom: 20px;
+  }
+}
 
 /* Policy Section */
 
@@ -161,108 +184,9 @@
   width: 100%;
 }
 
+@media (max-width: 400px) {
 
-
-/* ========== Media Queries ========== */
-
-@media only screen and (max-width: 1150px) {
-
-  .section-pad {
-    padding-top: 50px;
-    padding-bottom: 50px;
-  }
-
-  /* Main Marquee (1024px) */
-
-  .main-marquee .ruby-boot {
-    display: none;
-  }
-
-  /* News Section (1024px) */
-
-  .news-card {
-    width: 100%;
-    margin-bottom: 10px;
-  }
-}
-
-@media only screen and (max-width: 640px) {
-
-  /* Main Marquee (640px) */
-
-  .main-marquee h2 {
-    font-size: 1rem;
-    margin-bottom: 0;
-  }
-
-  .main-marquee h1 {
-    font-size: 5rem;
-    margin-bottom: 0;
-  }
-
-  .main-marquee p {
-    font-size: 1.3125rem;
-  }
-
-  .texas-icon {
-    padding-bottom: 20px;
-  }
-
-  .main-marquee .address-text {
-    margin-bottom: 20px;
-  }
-
-  .main-marquee p {
-    padding-right: 0;
-  }
-
-  /* Participate Section (640px) */
-
-  .participate-section h4 {
-    margin-bottom: 30px;
-  }
-
-  .participate-section .main-button {
-    margin-bottom: 20px;
-  }
-
-  /* News Section (640px) */
-
-  .news-section h2 {
-    margin-bottom: 0;
-  }
-
-  .news-section .text-cta {
-    text-align: left;
-    margin-bottom: 20px;
-  }
-
-  /* Speaker Section (640px) */
-
-  .speaker-section h2 {
-    margin-bottom: 0;
-  }
-
-  .speaker-section .text-cta {
-    text-align: left;
-    margin-bottom: 20px;
-  }
-
-  .speaker-image {
-    width: 100%;
-  }
-
-  /* Facts Section (640px) */
-
-  .facts-section article {
-    margin-bottom: 30px;
-  }
-
-  .facts-section article:last-child {
-    margin-bottom: 0;
-  }
-
-  .fact-illustration {
-    width: 240px;
+  .policy-block {
+    padding: 40px;
   }
 }
