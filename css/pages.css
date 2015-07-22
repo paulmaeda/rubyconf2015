@@ -94,6 +94,14 @@
   width: 100%;
 }
 
+.riverwalk-section {
+  background-image: url('../img/riverwalk-night.jpg');
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  height: 450px;
+}
+
 /* Facts */
 
 .facts-section {
@@ -132,19 +140,16 @@
 }
 
 .conf-year {
-  color: #be2428;
+  color: #71c0e8;
   padding: 30px;
   margin-bottom: 10px;
-  width: 24.25%;
-  margin-right: 1%;
   cursor: pointer;
   -webkit-transition: all .3s ease;
   transition: all .3s ease;
 }
 
 .conf-year:hover {
-  color: #fff;
-  background-color: #be2428;
+  background-color: #2c3688;
 }
 
 .conf-year p {
@@ -154,6 +159,15 @@
 
 .conf-year:last-child {
   margin-right: 0;
+}
+
+.committee-section img {
+  width: 100%;
+}
+
+.committee-section h5 {
+  font-size: 1.25rem;
+  text-align: center;
 }
 
 .rc-logo-large {

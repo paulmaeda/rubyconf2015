@@ -10,7 +10,7 @@
 }
 
 .ruby-boot {
-  width: 392px;
+  width: 375px;
 }
 
 .main-marquee h1 {
@@ -27,6 +27,7 @@
 
 .address-text {
   display: inline-block;
+  margin-top: 10px;
 }
 
 .main-marquee h5 {
@@ -179,7 +180,7 @@
 /* Policy Section */
 
 .policy-block {
-  background-color: #cccccc;
+  background-color: #d1e6f0;
   padding: 40px 340px 40px 40px;
   width: 100%;
 }
