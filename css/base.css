@@ -2,6 +2,13 @@ body {
   padding-top: 106px;
 }
 
+@media (max-width: 930px) {
+
+  body {
+    padding-top: 90px;
+  }
+}
+
 @media (max-width: 400px) {
 
   body {
@@ -79,13 +86,6 @@ h6 {
   border-top: solid 4px;
   border-bottom: solid 4px;
   padding: 8px
-}
-
-@media (max-width: 1024px) {
-
-  h1 {
-    font-size: 6rem;
-  }
 }
 
 @media (max-width: 400px) {

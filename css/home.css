@@ -50,11 +50,16 @@
   padding-right: 85px;
 }
 
-@media (max-width: 400px) {
-
+@media (max-width: 930px) {
   .ruby-boot {
     display: none;
   }
+  .main-text-block {
+    width: 100%;
+  }
+}
+
+@media (max-width: 400px) {
 
   .main-marquee h1 {
     font-size: 4rem;

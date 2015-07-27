@@ -25,6 +25,13 @@
   font-size: 2rem;
 }
 
+@media (max-width: 1024px) {
+
+  h1 {
+    font-size: 6rem;
+  }
+}
+
 /* Program */
 
 .program-info h5 {
@@ -39,7 +46,7 @@
 }
 
 .program-info h3 {
-  font-size: 1rem;
+  font-size: 1.25rem;
 }
 
 .speaker-photo-small {
@@ -62,6 +69,12 @@
   font-family: 'mission_gothiclight';
   font-size: 1.25rem;
 }
+
+@media (max-width: 400px) {
+
+  .program-info h3 {
+    margin-bottom: 30px;
+  }
 
 /* Sponsors */
 
