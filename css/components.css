@@ -73,11 +73,11 @@
   }
 
   .menu-button {
-    width: 40px;
+    width: 30px;
   }
 
   .menu-button-close {
-    width: 30px;
+    width: 20px;
     margin-bottom: 20px;
   }
 
@@ -140,6 +140,13 @@
   }
 }
 
+@media (max-width: 400px) {
+
+  .rubyconf-logo-small {
+    width: 90px;
+  }
+}
+
 /* Countdown Section */
 
 .countdown-section {
@@ -185,16 +192,28 @@ time div:last-child {
   margin-bottom: 20px;
 }
 
-@media (max-width: 400px) {
+@media (max-width: 1024px) {
 
   .countdown-section h4 {
     padding: 0;
     text-align: center;
   }
 
+  .timer-block {
+    margin-top: 30px;
+    margin-bottom: 30px;
+  }
+}
+
+@media (max-width: 400px) {
+
   time div {
-    font-size: 36px;
-    width: 65px;
+    font-size: 55px;
+    width: 75px;
+  }
+
+  .seconds-module {
+    display: none;
   }
 
   .time-box {
@@ -221,6 +240,21 @@ time div:last-child {
   padding: 40px;
   margin-top: 20px;
   margin-bottom: 20px;
+}
+
+@media (max-width: 400px) {
+
+  .info-box {
+    padding: 30px;
+  }
+
+  .sanantonio-section h4 {
+    font-size: 1rem;
+  }
+
+  .sanantonio-section span {
+    display: block;
+  }
 }
 
 /* Map Section */
@@ -327,5 +361,23 @@ footer a {
 
   footer {
     background-image: none;
+  }
+
+  footer h3 {
+    font-size: .85rem;
+  }
+
+  .footer-link {
+    display: block;
+    margin-bottom: 10px;
+  }
+
+  footer span {
+    display: none;
+  }
+
+  .credit-link {
+    font-size: .75rem;
+    margin-top: 30px;
   }
 }
