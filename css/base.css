@@ -74,6 +74,7 @@ h6 {
 .callout-style {
   font-family: 'Haymaker';
   font-size: 1.5rem;
+  line-height: 2rem;
   letter-spacing: 4px;
 }
 
@@ -96,6 +97,7 @@ h6 {
 
   .callout-style {
     font-size: .8rem;
+    line-height: 1.25rem;
   }
 
   h1 {
@@ -109,7 +111,8 @@ h6 {
   }
 
   h3 {
-    line-height: 2.25rem;
+    font-size: 1.25rem;
+    line-height: 1.75rem;
   }
 }
 
@@ -237,6 +240,10 @@ h6 {
 }
 
 .rc-red {
+  color: #be2428;
+}
+
+#red {
   color: #be2428;
 }
 

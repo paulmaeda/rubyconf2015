@@ -26,7 +26,7 @@
         <a href="#" class="navigation-close"><img src="img/menu-close.svg" class="menu-button-close"></a>
         <ul class="large-12 medium-12 columns nav-link-set">
           <li><a href="index.html" class="nav-link"><img src="img/rubyconf-type.png" class="rubyconf-logo"></a></li>
-          <li><a href="program.html" class="nav-link">PROGRAM</a></li>
+          <li><a href="program.html" class="nav-link" id="red">PROGRAM</a></li>
           <li><a href="schedule.html" class="nav-link">SCHEDULE</a></li>
           <li><a href="location.html" class="nav-link">LOCATION</a></li>
           <li><a href="scholarships.html" class="nav-link">SCHOLARSHIPS</a></li>
@@ -44,92 +44,55 @@
 
     <section class="program-info">
       <div class="row section-pad border-bottom">
-        <div class="large-7 medium-7 columns">
-          <h5 class="rc-red">Aaron Quint</h5>
-          <h2 class="rc-red spacer-small">REAL WORLD RUBY PERFORMANCE AT SCALE</h2>
-          <p class="spacer-medium">Large scale and fast production Ruby applications are not a myth. As we’ve continued to scale out our infrastructure and our application, we’ve been able to keep things fast and reliable. We do this by building and using tools that take advantage the great improvements that have come in Ruby 2. I’d like to share some of the lessons we’ve learned in scaling our app as well as show off the latest and greatest in open source performance tooling.</p>
-          <h3 class="rc-red">SUNDAY, 11/15 - 1PM</h3>
-        </div>
-        <div class="large-4 medium-4 columns speaker-info">
-          <img src="img/aaron-quint.jpg" class="speaker-photo-small">
-          <p class="spacer-small">Aaron Quint was born and raised in Brooklyn, NY. Despite spending some time in the Bay Area, he realized he couldn’t live without good bagels, so he moved back home. He spends his time as the Chief Scientist at Paperless Post and contributing to Open Source Ruby, JavaScript and Go projects.</p>
-          <h6><a href="https://twitter.com/aq" target="_blank" class="inline-link rc-light-blue"><img src="img/twitter-logo.png" class="twitter-logo-small">@aq</a></h6>
-        </div>
-      </div>
-
-      <div class="row section-pad border-bottom">
-        <div class="large-7 medium-7 columns">
-          <h5 class="rc-red">Aja Hammerly</h5>
-          <h2 class="rc-red spacer-small">A WORLD WITHOUT ASSIGNMENT</h2>
-          <p class="spacer-small">In Ruby, assignment is our primary tool. By contrast, functional programming makes much less use of assignment and mutation. Instead techniques like function composition, recursion, and anonymous functions are used.</p>
-          <p class="spacer-medium">Despite being OO, Ruby accommodates pure functional approaches. This talk will demonstrate how tasks can be accomplished without assignment. Ruby and Scheme will be used for examples. I’ll also discuss some of the great resources available for those interested in digging deeper into functional programming.</p>
-          <h3 class="rc-red">MONDAY, 11/16 - 2PM</h3>
-        </div>
-        <div class="large-4 medium-4 columns speaker-info">
-          <img src="img/aja-hammerly.jpg" class="speaker-photo-small">
-          <p class="spacer-small">Aja lives in Seattle where she is a developer at Substantial and a member of the Seattle Ruby Brigade. Her favorite languages are Ruby and Prolog. She also loves working with large piles of data. In her free time she enjoys skiing, cooking, knitting, and long coding sessions on the beach.</p>
-          <h6><a href="https://twitter.com/thagomizer_rb" target="_blank" class="inline-link rc-light-blue"><img src="img/twitter-logo.png" class="twitter-logo-small">@thagomizer_rb</a></h6>
+        <div class="text-wrapper">
+          <div class="large-7 medium-12 columns">
+            <h5 class="rc-red">Aaron Quint</h5>
+            <h2 class="rc-red spacer-small">REAL WORLD RUBY PERFORMANCE AT SCALE</h2>
+            <p class="spacer-medium">Large scale and fast production Ruby applications are not a myth. As we’ve continued to scale out our infrastructure and our application, we’ve been able to keep things fast and reliable. We do this by building and using tools that take advantage the great improvements that have come in Ruby 2. I’d like to share some of the lessons we’ve learned in scaling our app as well as show off the latest and greatest in open source performance tooling.</p>
+            <h3 class="rc-red">SUNDAY, 11/15 - 1PM</h3>
+          </div>
+          <div class="large-4 medium-12 columns speaker-info">
+            <img src="img/aaron-quint.jpg" class="speaker-photo-small">
+            <p class="spacer-small">Aaron Quint was born and raised in Brooklyn, NY. Despite spending some time in the Bay Area, he realized he couldn’t live without good bagels, so he moved back home. He spends his time as the Chief Scientist at Paperless Post and contributing to Open Source Ruby, JavaScript and Go projects.</p>
+            <h6><a href="https://twitter.com/aq" target="_blank" class="inline-link rc-light-blue"><img src="img/twitter-logo.png" class="twitter-logo-small">@aq</a></h6>
+          </div>
         </div>
       </div>
 
       <div class="row section-pad border-bottom">
-        <div class="large-7 medium-7 columns">
-          <h5 class="rc-red">Akira Matsuda</h5>
-          <h2 class="rc-red spacer-small">TEMPLATE ENGINES IN RUBY</h2>
-         <p class="spacer-small">HTML template engine is one of the most important library to build a web application. But who actually knows how it works? Who can explain how the engine parses the given template and finally composes the HTML body?</p>
-         <p class="spacer-medium">In this session, I will dig into implementation details of several Ruby libraries such as ERB, Haml, Slim, Tilt, Temple, etc. and give you a quick tour into the world of template engines!</p>
-          <h3 class="rc-red">TUESDAY, 11/17 - 3PM</h3>
-        </div>
-        <div class="large-4 medium-4 columns speaker-info">
-          <img src="img/akira-matsuda.jpg" class="speaker-photo-small">
-          <p class="spacer-small">Rails committer, Ruby committer, Haml committer, creator of widely used Rails plugins such as Kaminari, active decorator, actionargs, html5validators, erd, databaserewinder, etc. Founder of “Asakusa.rb”, the most active Ruby community in Japan.</p>
-          <h6><a href="https://twitter.com/a_matsuda" target="_blank" class="inline-link rc-light-blue"><img src="img/twitter-logo.png" class="twitter-logo-small">@a_matsuda</a></h6>
-        </div>
-      </div>
-
-      <div class="row section-pad border-bottom">
-        <div class="large-7 medium-7 columns">
-          <h5 class="rc-red">Aaron Quint</h5>
-          <h2 class="rc-red spacer-small">REAL WORLD RUBY PERFORMANCE AT SCALE</h2>
-          <p class="spacer-medium">Large scale and fast production Ruby applications are not a myth. As we’ve continued to scale out our infrastructure and our application, we’ve been able to keep things fast and reliable. We do this by building and using tools that take advantage the great improvements that have come in Ruby 2. I’d like to share some of the lessons we’ve learned in scaling our app as well as show off the latest and greatest in open source performance tooling.</p>
-          <h3 class="rc-red">SUNDAY, 11/15 - 1PM</h3>
-        </div>
-        <div class="large-4 medium-4 columns speaker-info">
-          <img src="img/aaron-quint.jpg" class="speaker-photo-small">
-          <p class="spacer-small">Aaron Quint was born and raised in Brooklyn, NY. Despite spending some time in the Bay Area, he realized he couldn’t live without good bagels, so he moved back home. He spends his time as the Chief Scientist at Paperless Post and contributing to Open Source Ruby, JavaScript and Go projects.</p>
-          <h6><a href="https://twitter.com/aq" target="_blank" class="inline-link rc-light-blue"><img src="img/twitter-logo.png" class="twitter-logo-small">@aq</a></h6>
+        <div class="text-wrapper">
+          <div class="large-7 medium-12 columns">
+            <h5 class="rc-red">Aja Hammerly</h5>
+            <h2 class="rc-red spacer-small">A WORLD WITHOUT ASSIGNMENT</h2>
+            <p class="spacer-small">In Ruby, assignment is our primary tool. By contrast, functional programming makes much less use of assignment and mutation. Instead techniques like function composition, recursion, and anonymous functions are used.</p>
+            <p class="spacer-medium">Despite being OO, Ruby accommodates pure functional approaches. This talk will demonstrate how tasks can be accomplished without assignment. Ruby and Scheme will be used for examples. I’ll also discuss some of the great resources available for those interested in digging deeper into functional programming.</p>
+            <h3 class="rc-red">MONDAY, 11/16 - 2PM</h3>
+          </div>
+          <div class="large-4 medium-12 columns speaker-info">
+            <img src="img/aja-hammerly.jpg" class="speaker-photo-small">
+            <p class="spacer-small">Aja lives in Seattle where she is a developer at Substantial and a member of the Seattle Ruby Brigade. Her favorite languages are Ruby and Prolog. She also loves working with large piles of data. In her free time she enjoys skiing, cooking, knitting, and long coding sessions on the beach.</p>
+            <h6><a href="https://twitter.com/thagomizer_rb" target="_blank" class="inline-link rc-light-blue"><img src="img/twitter-logo.png" class="twitter-logo-small">@thagomizer_rb</a></h6>
+          </div>
         </div>
       </div>
 
       <div class="row section-pad border-bottom">
-        <div class="large-7 medium-7 columns">
-          <h5 class="rc-red">Aja Hammerly</h5>
-          <h2 class="rc-red spacer-small">A WORLD WITHOUT ASSIGNMENT</h2>
-          <p class="spacer-small">In Ruby, assignment is our primary tool. By contrast, functional programming makes much less use of assignment and mutation. Instead techniques like function composition, recursion, and anonymous functions are used.</p>
-          <p class="spacer-medium">Despite being OO, Ruby accommodates pure functional approaches. This talk will demonstrate how tasks can be accomplished without assignment. Ruby and Scheme will be used for examples. I’ll also discuss some of the great resources available for those interested in digging deeper into functional programming.</p>
-          <h3 class="rc-red">MONDAY, 11/16 - 2PM</h3>
-        </div>
-        <div class="large-4 medium-4 columns speaker-info">
-          <img src="img/aja-hammerly.jpg" class="speaker-photo-small">
-          <p class="spacer-small">Aja lives in Seattle where she is a developer at Substantial and a member of the Seattle Ruby Brigade. Her favorite languages are Ruby and Prolog. She also loves working with large piles of data. In her free time she enjoys skiing, cooking, knitting, and long coding sessions on the beach.</p>
-          <h6><a href="https://twitter.com/thagomizer_rb" target="_blank" class="inline-link rc-light-blue"><img src="img/twitter-logo.png" class="twitter-logo-small">@thagomizer_rb</a></h6>
+        <div class="text-wrapper">
+          <div class="large-7 medium-12 columns">
+            <h5 class="rc-red">Akira Matsuda</h5>
+            <h2 class="rc-red spacer-small">TEMPLATE ENGINES IN RUBY</h2>
+           <p class="spacer-small">HTML template engine is one of the most important library to build a web application. But who actually knows how it works? Who can explain how the engine parses the given template and finally composes the HTML body?</p>
+           <p class="spacer-medium">In this session, I will dig into implementation details of several Ruby libraries such as ERB, Haml, Slim, Tilt, Temple, etc. and give you a quick tour into the world of template engines!</p>
+            <h3 class="rc-red">TUESDAY, 11/17 - 3PM</h3>
+          </div>
+          <div class="large-4 medium-12 columns speaker-info">
+            <img src="img/akira-matsuda.jpg" class="speaker-photo-small">
+            <p class="spacer-small">Rails committer, Ruby committer, Haml committer, creator of widely used Rails plugins such as Kaminari, active decorator, actionargs, html5validators, erd, databaserewinder, etc. Founder of “Asakusa.rb”, the most active Ruby community in Japan.</p>
+            <h6><a href="https://twitter.com/a_matsuda" target="_blank" class="inline-link rc-light-blue"><img src="img/twitter-logo.png" class="twitter-logo-small">@a_matsuda</a></h6>
+          </div>
         </div>
       </div>
 
-      <div class="row section-pad border-bottom">
-        <div class="large-7 medium-7 columns">
-          <h5 class="rc-red">Akira Matsuda</h5>
-          <h2 class="rc-red spacer-small">TEMPLATE ENGINES IN RUBY</h2>
-         <p class="spacer-small">HTML template engine is one of the most important library to build a web application. But who actually knows how it works? Who can explain how the engine parses the given template and finally composes the HTML body?</p>
-         <p class="spacer-medium">In this session, I will dig into implementation details of several Ruby libraries such as ERB, Haml, Slim, Tilt, Temple, etc. and give you a quick tour into the world of template engines!</p>
-          <h3 class="rc-red">TUESDAY, 11/17 - 3PM</h3>
-        </div>
-        <div class="large-4 medium-4 columns speaker-info">
-          <img src="img/akira-matsuda.jpg" class="speaker-photo-small">
-          <p class="spacer-small">Rails committer, Ruby committer, Haml committer, creator of widely used Rails plugins such as Kaminari, active decorator, actionargs, html5validators, erd, databaserewinder, etc. Founder of “Asakusa.rb”, the most active Ruby community in Japan.</p>
-          <h6><a href="https://twitter.com/a_matsuda" target="_blank" class="inline-link rc-light-blue"><img src="img/twitter-logo.png" class="twitter-logo-small">@a_matsuda</a></h6>
-        </div>
-      </div>
     </section>
 
     <footer>

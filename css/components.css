@@ -137,6 +137,8 @@
 
   .main-navigation .main-button {
     width: 100%;
+    text-align: center;
+    margin-top: 30px;
   }
 }
 
@@ -162,8 +164,12 @@
 .countdown-section h4 {
   color: #fff;
   font-size: 1.75rem;
+  padding-top: 67px;
+  padding-bottom: 67px;
+}
+
+.timer-block {
   padding-top: 30px;
-  padding-bottom: 30px;
 }
 
 time div {
@@ -206,6 +212,12 @@ time div:last-child {
 }
 
 @media (max-width: 400px) {
+
+  .timer-block {
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-top: 0;
+  }
 
   time div {
     font-size: 55px;
@@ -318,6 +330,7 @@ footer:before {
   content: " ";
   display: block;
   height: 16px;
+  -webkit-transform: rotateX(-180deg);
   transform: rotateX(-180deg);
 }
 

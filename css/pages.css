@@ -30,6 +30,26 @@
   h1 {
     font-size: 6rem;
   }
+
+  .text-wrapper {
+    padding-right: 100px;
+  }
+}
+
+@media (max-width: 400px) {
+
+  h1 {
+    font-size: 3rem;
+  }
+
+  h2 {
+    font-size: 1.25rem;
+    line-height: 2rem;
+  }
+
+  .info-section h2 {
+    margin-bottom: 20px;
+  }
 }
 
 /* Program */
@@ -70,7 +90,23 @@
   font-size: 1.25rem;
 }
 
+@media (max-width: 1024px) {
+
+  .program-info h3 {
+    margin-bottom: 30px;
+  }
+}
+
 @media (max-width: 400px) {
+
+  .program-wrapper {
+    padding-right: 0;
+  }
+
+  .program-info h2 {
+    font-size: 1.75rem;
+    line-height: 2.25rem;
+  }
 
   .program-info h3 {
     margin-bottom: 30px;
@@ -162,7 +198,7 @@
 }
 
 .fact-illustration {
-  width: 320px;
+  width: 300px;
   margin-bottom: 30px;
   transform: rotateY(0deg);
   transition: all .3s ease-in-out;
@@ -179,8 +215,23 @@
 }
 
 .facts-section h5 {
-  font-size: 2.5rem;
-  margin-bottom: 10px;
+  font-size: 2.25rem;
+}
+
+@media (max-width: 400px) {
+
+  .fact-illustration {
+    width: 150px;
+    margin-bottom: 20px;
+  }
+
+  .facts-section p {
+    margin-bottom: 30px;
+  }
+
+  .fact-block-3 p {
+    margin-bottom: 0;
+  }
 }
 
 /* About */
@@ -229,4 +280,41 @@
 
 .rc-logo-large {
   width: 140px;
+  margin-bottom: 20px;
 }
+
+@media (max-width: 400px) {
+
+  .ruby-icon {
+    display: none;
+  }
+
+  .conf-year {
+    padding: 20px;
+  }
+
+  .conf-year p {
+    font-size: 2rem;
+    margin-bottom: 10px;
+  }
+
+  .conf-year h3 {
+    font-size: .5rem;
+  }
+
+  .rc-logo-large {
+    width: 100px;
+    display: block;
+    margin: 0 auto 20px auto;
+  }
+}
+
+
+
+
+
+
+
+
+
+
