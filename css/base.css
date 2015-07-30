@@ -260,11 +260,45 @@ h6 {
 
 .fade-in {
   animation-name: fade-in;
-  animation-duration: .5s;
+  animation-duration: 1s;
   animation-timing-function: ease;
 }
 
 @keyframes fade-in {
   from {opacity: 0;}
   to {opacity: 1;}
+}
+
+@keyframes fadeLeft {
+  from { left: -300px; opacity: 0 }
+  to { left: 0; opacity: 1 }
+}
+
+.fade-left-animation {
+  position: relative;
+  left: 0px;
+  opacity: 1;
+  animation: fadeLeft 1s forwards;
+}
+
+@keyframes fadeRight {
+  from { opacity: 0 ; right: -300px; }
+  to { opacity: 1; right: 0  }
+}
+
+.fade-right-animation {
+  position: relative;
+  right: 0px;
+  opacity: 0;
+  animation: fadeRight 1s forwards;
+  animation-delay: .5s;
+}
+
+@keyframes scaleUp {
+  from { transform: scale(0) }
+  to { transform: scale(1) }
+}
+
+.scale-up-animation {
+  animation: scaleUp .5s;
 }
