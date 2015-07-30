@@ -86,7 +86,7 @@ h6 {
   display: inline-block;
   border-top: solid 4px;
   border-bottom: solid 4px;
-  padding: 8px
+  padding: 11px 8px 8px 8px;
 }
 
 @media (max-width: 400px) {
@@ -184,6 +184,10 @@ h6 {
 
 /* Spacing and Layout */
 
+.no-pad-left {
+  padding-left: 0;
+}
+
 .section-pad {
   padding-top: 70px;
   padding-bottom: 70px;
@@ -249,6 +253,10 @@ h6 {
 
 .rc-red-bg {
   background-color: #be2428;
+}
+
+.rc-light-blue-bg {
+  background-color: #d1e6f0;
 }
 
 .gold {
