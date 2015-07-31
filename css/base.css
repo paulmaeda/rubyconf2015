@@ -181,7 +181,6 @@ h6 {
   color: #2c3688;
 }
 
-
 /* Spacing and Layout */
 
 .no-pad-left {
@@ -257,6 +256,10 @@ h6 {
 
 .rc-light-blue-bg {
   background-color: #d1e6f0;
+}
+
+.gray-bg {
+  background-color: #e4e4e4;
 }
 
 .gold {

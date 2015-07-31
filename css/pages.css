@@ -129,8 +129,27 @@
 /* Schedule */
 
 .schedule-row {
-  padding: 30px;
+  padding: 20px;
+  margin-top: 5px;
+  margin-bottom: 5px;
 }
+
+.schedule-row h4 {
+  font-family: 'mission_gothiclight';
+  font-size: 1.25rem;
+  line-height: 2rem;
+  letter-spacing: 1px;
+  margin-bottom: 10px;
+}
+
+.schedule-row h5 {
+  font-family: 'mission_gothiclight';
+  font-size: 1.125rem;
+  line-height: 1.5rem;
+  margin-top: 10px;
+}
+
+
 
 /* Location */
 
