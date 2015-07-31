@@ -28,7 +28,8 @@
 @media (max-width: 1024px) {
 
   h1 {
-    font-size: 6rem;
+    font-size: 4rem;
+    line-height: 4.25rem;
   }
 
   .text-wrapper {
@@ -36,10 +37,22 @@
   }
 }
 
+@media (max-width: 768px) {
+
+  .text-wrapper {
+    padding-right: 0;
+  }
+
+  .intro-text {
+    padding-right: 1.5rem;
+  }
+}
+
 @media (max-width: 400px) {
 
   h1 {
     font-size: 3rem;
+    line-height: 3.25rem;
   }
 
   h2 {
@@ -113,6 +126,12 @@
   }
 }
 
+/* Schedule */
+
+.schedule-row {
+  padding: 30px;
+}
+
 /* Location */
 
 .location-image {
@@ -162,6 +181,10 @@
 
 @media (max-width: 400px) {
 
+  .location-image {
+    margin-top: 10px;
+  }
+
   .fact-illustration {
     width: 150px;
     margin-bottom: 20px;
@@ -205,7 +228,7 @@
   }
 }
 
-@media (max-width: 400px) {
+@media (max-width: 768px) {
 
   .long-heading-small {
     display: block;
@@ -343,5 +366,16 @@
 
   .register-block {
     margin-top: 40px;
+  }
+}
+
+@media (max-width: 400px) {
+
+  .callout-large {
+    font-size: 1.25rem;
+  }
+
+  .register-block {
+    margin-top: 10px;
   }
 }
