@@ -15,25 +15,25 @@
   </head>
   <body>
 
-    <header class="small-navigation">
+    <nav class="small-navigation">
       <a href="index.html"><img src="img/rubyconf-type.png" class="rubyconf-logo-small"></a>
       <a href="#" class="navigation-toggle"><img src="img/menu-wavy.svg" class="menu-button"></a>
-    </header>
+    </nav>
 
-    <header class="main-navigation">
+    <nav class="main-navigation">
       <div class="row">
         <a href="#" class="navigation-close"><img src="img/menu-close.svg" class="menu-button-close"></a>
         <ul class="large-12 medium-12 columns nav-link-set">
           <li><a href="index.html" class="nav-link"><img src="img/rubyconf-type.png" class="rubyconf-logo"></a></li>
           <li><a href="program.html" class="nav-link">PROGRAM</a></li>
-          <li><a href="schedule.html" class="nav-link" id="red">SCHEDULE</a></li>
+          <li><a href="schedule.html" id="nav-link-on" class="nav-link">SCHEDULE</a></li>
           <li><a href="location.html" class="nav-link">LOCATION</a></li>
           <li><a href="scholarships.html" class="nav-link">SCHOLARSHIPS</a></li>
           <li><a href="sponsors.html" class="nav-link">SPONSORS</a></li>
           <a href="registration.html" class="main-button top-button">REGISTER</a>
         </ul>
       </div>
-    </header>
+    </nav>
 
     <section class="secondary-marquee section-pad">
       <div class="row text-center">
@@ -42,35 +42,41 @@
     </section>
 
     <section class="days-nav section-pad">
-      <div class="row text-center spacer-big">
-        <div class="secondary-button">Sunday</div>
-        <div class="secondary-button">Monday</div>
-        <div class="secondary-button">Tuesday</div>
-      </div>
-      <div class="large-12 columns text-center">
-        <h3 class="callout-large rc-red spacer-small">SUNDAY, 11/15</h3>
+      <div class="row text-center">
+        <ul id="schedule-nav" class="large-12 columns">
+          <li><a href="#" data-code="sunday-data" class="schedule-button" id="sunday-button">Sunday</a></li>
+          <li><a href="#" data-code="monday-data" class="schedule-button" id="monday-button">Monday</a></li>
+          <li><a href="#" data-code="tuesday-data" class="schedule-button" id="tuesday-button">Tuesday</a></li>
+        </ul>
       </div>
     </section>
 
-    <section class="schedule-data section-pad text-center">
+    <section class="schedule-data sunday-data text-center">
+      <div class="large-12 columns">
+        <h3 class="callout-large rc-red spacer-small">SUNDAY, 11/15</h3>
+      </div>
 
       <div class="row">
         <div class="large-12 columns">
           <div class="gray-bg schedule-row">
             <h4>8:00 – 10:00AM</h4>
             <h3>REGISTRATION</h3>
-            <h5>Ballroom A</h5>
+            <p>[ Ballroom A ]</p>
           </div>
         </div>
+      </div>
 
+      <div class="row">
         <div class="large-12 columns">
           <div class="rc-light-blue-bg schedule-row">
             <h4>10:00 – 11:00AM</h4>
-            <h3>WELCOME MATZ KEYNOTE</h3>
-            <h5>Ballroom B</h5>
+            <h3 class="rc-red">WELCOME MATZ KEYNOTE</h3>
+            <p>[ Ballroom B ]</p>
           </div>
         </div>
+      </div>
 
+      <div class="row">
         <div class="large-12 columns">
           <div class="gray-bg schedule-row">
             <h4>11:00 – 11:10AM</h4>
@@ -81,23 +87,171 @@
 
       <div class="row">
         <div class="large-12 columns">
-          <div class="rc-light-blue-bg schedule-row columns">
+          <div class="rc-light-blue-bg schedule-row columns speaker-row-4">
             <h4>11:00 – 11:10AM</h4>
             <div class="large-3 columns">
-              <h3>WELCOME</h3>
-              <h5>Ballroom B</h5>
+              <h3 class="rc-red">REAL WORLD RUBY PERFORMANCE AT SCALE</h3>
+              <h5>Aaron Quint</h5>
+              <p>[ Ballroom A ]</p>
             </div>
             <div class="large-3 columns">
-              <h3>WELCOME</h3>
-              <h5>Ballroom B</h5>
+              <h3 class="rc-red">A WORLD WITHOUT ASSIGNMENT</h3>
+              <h5>Aja Hammerly</h5>
+              <p>[ Ballroom B ]</p>
             </div>
             <div class="large-3 columns">
-              <h3>WELCOME</h3>
-              <h5>Ballroom B</h5>
+              <h3 class="rc-red">TEMPLATE ENGINES IN RUBY</h3>
+              <h5>Akira Matsuda</h5>
+              <p>[ Ballroom C ]</p>
             </div>
             <div class="large-3 columns">
-              <h3>WELCOME</h3>
-              <h5>Ballroom B</h5>
+              <h3 class="rc-red">REAL WORLD RUBY PERFORMANCE AT SCALE</h3>
+              <h5>Aaron Quint</h5>
+              <p>[ Ballroom D ]</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="large-12 columns">
+          <div class="gray-bg schedule-row">
+            <h4>11:00 – 11:10AM</h4>
+            <h3>LUNCH</h3>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="schedule-data monday-data text-center">
+      <div class="large-12 columns">
+        <h3 class="callout-large rc-red spacer-small">MONDAY, 11/16</h3>
+      </div>
+
+     <div class="row">
+       <div class="large-12 columns">
+         <div class="gray-bg schedule-row">
+           <h4>8:00 – 10:00AM</h4>
+           <h3>REGISTRATION</h3>
+           <p>[ Ballroom A ]</p>
+         </div>
+       </div>
+     </div>
+
+     <div class="row">
+       <div class="large-12 columns">
+         <div class="rc-light-blue-bg schedule-row">
+           <h4>10:00 – 11:00AM</h4>
+           <h3 class="rc-red">WELCOME MATZ KEYNOTE</h3>
+           <p>[ Ballroom B ]</p>
+         </div>
+       </div>
+     </div>
+
+     <div class="row">
+       <div class="large-12 columns">
+         <div class="gray-bg schedule-row">
+           <h4>11:00 – 11:10AM</h4>
+           <h3>BREAK</h3>
+         </div>
+       </div>
+     </div>
+
+     <div class="row">
+       <div class="large-12 columns">
+         <div class="rc-light-blue-bg schedule-row columns speaker-row-4">
+           <h4>11:00 – 11:10AM</h4>
+           <div class="large-3 columns">
+             <h3 class="rc-red">REAL WORLD RUBY PERFORMANCE AT SCALE</h3>
+             <h5>Aaron Quint</h5>
+             <p>[ Ballroom A ]</p>
+           </div>
+           <div class="large-3 columns">
+             <h3 class="rc-red">A WORLD WITHOUT ASSIGNMENT</h3>
+             <h5>Aja Hammerly</h5>
+             <p>[ Ballroom B ]</p>
+           </div>
+           <div class="large-3 columns">
+             <h3 class="rc-red">TEMPLATE ENGINES IN RUBY</h3>
+             <h5>Akira Matsuda</h5>
+             <p>[ Ballroom C ]</p>
+           </div>
+           <div class="large-3 columns">
+             <h3 class="rc-red">REAL WORLD RUBY PERFORMANCE AT SCALE</h3>
+             <h5>Aaron Quint</h5>
+             <p>[ Ballroom D ]</p>
+           </div>
+         </div>
+       </div>
+     </div>
+
+     <div class="row">
+       <div class="large-12 columns">
+         <div class="gray-bg schedule-row">
+           <h4>11:00 – 11:10AM</h4>
+           <h3>LUNCH</h3>
+         </div>
+       </div>
+     </div>
+   </section>
+
+    <section class="schedule-data tuesday-data text-center">
+      <div class="large-12 columns">
+        <h3 class="callout-large rc-red spacer-small">TUESDAY, 11/17</h3>
+      </div>
+
+      <div class="row">
+        <div class="large-12 columns">
+          <div class="gray-bg schedule-row">
+            <h4>8:00 – 10:00AM</h4>
+            <h3>REGISTRATION</h3>
+            <p>[ Ballroom A ]</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="large-12 columns">
+          <div class="rc-light-blue-bg schedule-row">
+            <h4>10:00 – 11:00AM</h4>
+            <h3 class="rc-red">WELCOME MATZ KEYNOTE</h3>
+            <p>[ Ballroom B ]</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="large-12 columns">
+          <div class="gray-bg schedule-row">
+            <h4>11:00 – 11:10AM</h4>
+            <h3>BREAK</h3>
+          </div>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="large-12 columns">
+          <div class="rc-light-blue-bg schedule-row columns speaker-row-4">
+            <h4>11:00 – 11:10AM</h4>
+            <div class="large-3 columns">
+              <h3 class="rc-red">REAL WORLD RUBY PERFORMANCE AT SCALE</h3>
+              <h5>Aaron Quint</h5>
+              <p>[ Ballroom A ]</p>
+            </div>
+            <div class="large-3 columns">
+              <h3 class="rc-red">A WORLD WITHOUT ASSIGNMENT</h3>
+              <h5>Aja Hammerly</h5>
+              <p>[ Ballroom B ]</p>
+            </div>
+            <div class="large-3 columns">
+              <h3 class="rc-red">TEMPLATE ENGINES IN RUBY</h3>
+              <h5>Akira Matsuda</h5>
+              <p>[ Ballroom C ]</p>
+            </div>
+            <div class="large-3 columns">
+              <h3 class="rc-red">REAL WORLD RUBY PERFORMANCE AT SCALE</h3>
+              <h5>Aaron Quint</h5>
+              <p>[ Ballroom D ]</p>
             </div>
           </div>
         </div>

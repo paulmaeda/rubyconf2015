@@ -128,28 +128,51 @@
 
 /* Schedule */
 
+#schedule-nav {
+  margin: 0;
+}
+
+#schedule-nav li {
+  display: inline-block;
+}
+
+.monday-data, .tuesday-data {
+  display: none;
+}
+
 .schedule-row {
   padding: 20px;
   margin-top: 5px;
   margin-bottom: 5px;
 }
 
-.schedule-row h4 {
-  font-family: 'mission_gothiclight';
+.schedule-row h3 {
   font-size: 1.25rem;
-  line-height: 2rem;
-  letter-spacing: 1px;
+  line-height: 1.75rem;
   margin-bottom: 10px;
 }
 
-.schedule-row h5 {
+.schedule-row h4 {
   font-family: 'mission_gothiclight';
-  font-size: 1.125rem;
-  line-height: 1.5rem;
-  margin-top: 10px;
+  font-size: 1.25rem;
+  letter-spacing: 1px;
+  margin-bottom: 25px;
+  padding-bottom: 15px;
+  border-bottom: dotted 1px gray;
 }
 
+.schedule-row h5 {
+  font-size: 1.25rem;
+  line-height: 1.75rem;
+  margin-bottom: 10px;
+}
 
+@media (max-width: 1024px) {
+
+  .speaker-row-4 p {
+    margin-bottom: 30px;
+  }
+}
 
 /* Location */
 

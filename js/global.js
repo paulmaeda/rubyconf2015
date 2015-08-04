@@ -92,3 +92,36 @@ function getTimeToConference() {
 
 }
 window.setInterval(getTimeToConference,1000);
+
+//
+// Schedule Navigation
+//
+
+// $("#monday-button").click(function(){
+//     $("#schedule-sunday").hide(500);
+//     $("#schedule-monday").show(500);
+// });
+
+// $("#sunday-button").click(function(){
+//     $("#schedule-monday").hide(500);
+//     $("#schedule-sunday").show(500);
+// });
+
+//when clicking on any <a> tag within #schedule-nav
+$('#schedule-nav').on('click', 'a', function(e){
+  //prevent link from firing
+  e.preventDefault();
+
+  //hide all the rest of the content divs
+  $('.schedule-data').fadeOut();
+
+  //get data attribute of which <a> is clicked
+  var code = $(this).data('code');
+
+  //grab the content div with the class
+  //that matches the data-attribute
+  $('.' + code).fadeIn();
+});
+
+
+
