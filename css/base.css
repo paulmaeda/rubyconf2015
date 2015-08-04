@@ -301,4 +301,6 @@ h6 {
 
 .scale-up-animation {
   animation: scaleUp .5s;
+  visibility: visible;
 }
+
