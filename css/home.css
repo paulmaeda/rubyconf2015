@@ -136,49 +136,17 @@
 
 /* Speaker Section */
 
-.speaker-section .text-cta {
-  text-align: right;
-}
-
-.speaker-block {
-  position: relative;
+.cowboy-icon {
+  width: 120px;
   display: block;
+  margin: 20px auto;
 }
 
-.speaker-block > img {
-  width: 100%;
-}
-
-.speaker-overlay {
-  position: absolute;
-  z-index: 9999;
-  display: block;
-  width: 100%;
-  height: 100%;
+.speaker-block h5 {
+  color: #2c3688;
   text-align: center;
-  padding-top: 120px;
-  padding-bottom: 120px;
-  opacity: 0;
-  background-color: rgba(44, 54, 136, .85);
-  -webkit-transition: opacity .3s; /* Safari */
-  transition: opacity .3s;
-}
-
-.speaker-overlay h4, h5 {
-  color: #fff;
-}
-
-.speaker-overlay h5 {
-  font-size: 2.25rem;
-}
-
-.speaker-overlay h4 {
-  margin-bottom: 20px;
-  letter-spacing: 1px;
-}
-
-.speaker-block:hover .speaker-overlay {
-  opacity: 1;
+  font-size: 3rem;
+  line-height: 3.5rem;
 }
 
 @media (max-width: 400px) {
